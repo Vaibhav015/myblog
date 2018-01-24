@@ -1,0 +1,33 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+html,body {
+  background-color: #0d1521;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif; 
+  
+}
+
+p{
+  color: white;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+h2{
+  color: white;
+}
+
+.navbar-inverse {
+    background-color: #090d13;
+    border-color: #090d13;
+}
+
+.box{
+    position: relative;
+    width: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
